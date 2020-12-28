@@ -14,7 +14,16 @@
 
     $myString = "This is a test string!";
     $myStringLength = strlen($myString);
+    $myStringWordCount = str_word_count($myString);
+    $myStringReversed = strrev($myString);
 
+    // getting the length of a string
     echo $myString . "<br>";
-    echo "The length of the string above is $myStringLength characters";
+    echo "The length of the string above is $myStringLength characters.<br>";
+
+    // getting the number of words in a string
+    echo "There are $myStringWordCount words in my string.<br>";
+
+    // reversing a string
+    echo "This is the string above which is reversed: $myStringReversed <br>"
 ?>
