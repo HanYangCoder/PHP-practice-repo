@@ -8,6 +8,7 @@
     $var1 = "Donald";
     $var2 = "Mickey";
     $var3 = "Goofy";
+    $var4 = "Minnie";
 
     // two ways to insert variables in strings
     echo "Hi there! I am $var2 and these are my friends " . $var1 . " and " . $var3 . "<br><br>";
