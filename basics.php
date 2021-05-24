@@ -11,7 +11,7 @@
     $var4 = "Minnie";
 
     // two ways to insert variables in strings
-    echo "Hi there! I am $var2 and these are my friends " . $var1 . " and " . $var3 . "<br><br>";
+    echo "Hi there! I am $var2 and these are my friends " . $var1 . " and " . $var4 . "<br><br>";
 
     $myString = "This is a test string!";
     $myStringLength = strlen($myString);
