@@ -26,5 +26,5 @@
     echo "There are $myStringWordCount words in my string.<br>";
 
     // reversing a string
-    echo "This is the string above which is reversed: $myStringReversed.<br>";
+    echo "This is the string above which is reversed: $myStringReversed blah blah blah.<br>";
 ?>
