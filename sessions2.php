@@ -20,6 +20,9 @@
     <p>The statement is false</p>
 <?php endif; ?>
 
+<!-- insert some PHP code later to test out isset() and empty() 
+    functions that checks if session variables are empty-->
+
 <?php print_r($_SESSION); ?>
 
 </body>
