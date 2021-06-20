@@ -12,7 +12,7 @@
     //echo "Favorite animal is " . $_SESSION["favanimal"] . ".";
     
     // session_unset() removes the values in the session variables
-    // session_unset();
+    session_unset();
     print_r($_SESSION);
 ?>
 

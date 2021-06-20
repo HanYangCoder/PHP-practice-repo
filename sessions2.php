@@ -22,6 +22,11 @@
 
 <!-- insert some PHP code later to test out isset() and empty() 
     functions that checks if session variables are empty-->
+<?php if(isset($_SESSION["favanimal"])): ?>
+    <p>The session variable "favanimal" is set</p>
+<?php else: ?>
+    <p>The session variable "favanimal" is NOT set</p>
+<?php endif; ?>
 
 <?php print_r($_SESSION); ?>
 
